@@ -76,7 +76,7 @@ img.img-intro {
 }
 
 .content .post a h1:hover{
-	color: #FF6C40;
+	color: #3399FF;
 -webkit-transition: all .2s ease-in-out;
    -moz-transition: all .2s ease-in-out;
     -ms-transition: all .2s ease-in-out;
@@ -119,7 +119,7 @@ footer .social li {
 }
 footer .social li a { color: #a5a5a5 }
 footer .social li a:hover {
-	color: #e85f37;
+	color: #3399FF;
 }
 .foot-cp { padding-top: 40px }
 .foot-cp a {
