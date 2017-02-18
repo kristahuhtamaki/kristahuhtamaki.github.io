@@ -1,72 +1,191 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title> Kristan nettisivut</title>
-    
-    <meta name="author" content="Krista Huhtamäki" />
-    <meta name="description" content="Page for Viestintä 2 campaing" />
-
-    <link rel="stylesheet" href="style.css" type="text/css" />
-        
-
+    <title>Liikenneuudistus</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Webpage for Viestinta2">
+    <meta name="author" content="Krista Huhtamäki">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div id="page">
-		<div id="logo">
-            <h1><a href="/" id="logoLink">My First Website</a>
-            </h1>
-        </div>div>
-        <div nav class="navigation">
-            <ul>
-                <li>
-                    <a href="/">Home</a></li>
-                <li>
-                    <a href="/uutiset">Uutiset</a>
-                </li>
-                <li>
-                    <a href="/yhteystiedot">Yhteystiedot</a>
-                </li>
-                <li>
-                    <a href="/englanniksi">In English</a>
-                </li>
-            </ul>
+	<!-- Navigation -->
+	<div class="main-nav">
+		<div class="container">
+			<header class="group top-nav">
+				<nav class="navbar logo-w navbar-left" >
+					<a class="logo" href="index.html">Liikenneuudistus</a>
+				</nav>
+				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+				    <span class="logo">Saturn</span>
+				</div>
+			    <nav id="navbar-1" class="navbar item-nav navbar-right">
+				    <ul>
+				        <li class="active"><a href="index.html">Koti</a></li>
+				        <li><a href="#">Tietoa</a></li>
+				        <li><a href="#">Uutiset</a></li>
+				        <li><a href="#">Yhteystiedot</a></li>
+				    </ul>
+				</nav>
+			</header>
+		</div>
+	</div>
+
+        <!-- Header -->
+    <header>
+        <h1> Tahdoin 2017 - Liikenneuudistus</h1>
+        <div class="logo-container">
+            <div class="logo"></div>
         </div>
-    </div>
-        <header>
-            <h1> Tahdoin 2017 - Liikenneuudistus</h1>
-            <div class="logo-container">
-                <div class="logo"></div>
-            </div>
-            <p> This is Krista's test page.</p>
-            <img src ="pictures/LVM.png">
-        </header>
-        <section>
-            <article id="first" class="blog-post">
-                <h2>Liikenneuudistuksen tausta </h2>
-                <p>
-                    "Mikä on liikenneuudistus?"
-                    <br>
-                    Bernerin liikenneuudistus
-                </p>
-                <img class="resize" src="pictures/berner.jpg" alt="Kuvaa ei voitu ladata" widtsh="500px">
-            </article>
-            <article id="second" class="blog-post"> 
-                <h2>Liikenneuudistuksen taustaa </h2>
-                <p>
-                    "Liikenneuudistus piti tulla, ei tullutkaan."
-                </p>
-                <div class="videoWrapper">
+        <p> This is Krista's test page.</p>
+        <img src ="pictures/LVM.png">
+    </header>
+    
+    
+
+    	<!-- Introduction -->
+	<div class="intro">
+		<div class="container">
+			<div class="units-row">
+			    <div class="unit-10">
+			    	<img class="img-intro" src="img/avatar.png" alt="">
+			    </div>
+			    <div class="unit-90">
+			    	<p class="p-intro">Hello, I’m Saturn. I’m proud to be a part of milky way.</p>
+			    </div>
+			</div>
+		</div>
+	</div>
+    
+	
+ 	<!-- Content -->
+	<section>
+		<div class="container">
+			<!-- Post -->
+			<article id="first" class="blog-post">
+				<!-- Heading -->
+				<a href="#"><h1>Liikenne uudistuksen tausta</h1></a>
+				<hr>
+				<div class="in-content">
+					<p>
+						"Mikä on liikenneuudistus?"
+                        <br>
+                        Bernerin liikenneuudistus
+					</p>
+                    <img class="resize" src="pictures/berner.jpg" alt="Kuvaa ei voitu ladata" widtsh="500px">
+					<a class="read-more" href="#">Read more</a>
+				</div>
+				<div class="foot-post">
+					<div class="units-row">
+					    <div class="unit-100">
+					    	<strong>Tags:</strong>
+					    	<a href="#">Galaxy</a>,
+					    	<a href="#">Human</a>,
+					    	<a href="#">World</a>,
+					    </div>
+					    <div class="unit-100">
+					    	<strong>COMMENTS:</strong> 
+					    	<a href="#">3</a>
+					    </div>
+					</div>
+				</div>
+			</article>
+			<!-- /post -->
+
+			<!-- Post -->
+			<article id="second" class="blog-post">
+				<!-- Heading -->
+				<a href="#"><h1>Liikenneuudistus2</h1></a>
+				<hr>
+				<div class="in-content">
+					<img class="right" src="img/post-img.jpg" alt="">
+					<p>
+						Piti tulla, ei tullutkaan.
+					</p>
+                    <div class="videoWrapper">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/9Yy3vXgrJow" frameborder="0" allowfullscreen></iframe>
                 </div>
-            </article>
-        </section>
-        <aside>
-            <article class="blog-post">
-                <h3>Lisätietoja </h3>
-            </article>
-        </aside>
-        <footer class="footer">
-            <p>Copyright 2017 by Krista Huhtamäki</p>    
-        </footer>
-    </body>
+				</div>
+				<div class="foot-post">
+					<div class="units-row">
+					    <div class="unit-100">
+					    	<strong>Tags:</strong>
+					    	<a href="#">Saturn</a>,
+					    	<a href="#">Sky</a>,
+					    	<a href="#">Moon</a>,
+					    </div>
+					    <div class="unit-100">
+					    	<strong>COMMENTS:</strong> 
+					    	<a href="#">3</a>
+					    </div>
+					</div>
+				</div>
+			</article>
+			<!-- /post -->
+
+			<!-- Post -->
+			<article id="third" class="blog-post">
+				<!-- Heading -->
+				<a href="#"><h1>Moon’s orbit around the Earth </h1></a>
+				<hr>
+				<div class="in-content">
+					<p>
+						Tilted to the orbit of the Earth around the Sun – and so most of the time, the moon will pass above or below Saturn in the sky, and no occultation will occur. It is only when Saturn lies near the point that the moon’s orbit crosses the “plane of the ecliptic” that occultations can happen.
+					</p>
+					<a class="read-more" href="#">Read more</a>
+				</div>
+				<div class="foot-post">
+					<div class="units-row">
+					    <div class="unit-100">
+					    	<strong>Tags:</strong>
+					    	<a href="#">Moon</a>,
+					    	<a href="#">Orbit</a>,
+					    	<a href="#">Earth</a>,
+					    </div>
+					    <div class="unit-100">
+					    	<strong>COMMENTS:</strong> 
+					    	<a href="#">221</a>
+					    </div>
+					</div>
+				</div>
+			</article>
+			<!-- /post -->
+		</div>
+	</section>
+    
+    <footer>
+		<div class="container">
+			<div class="units-row">
+			    <div class="unit-50">
+			    	<button class="btn btn-black"><i class="fa fa-arrow-left"></i> PREVIOUS</button>
+			    </div>
+			    <div class="unit-50">
+					<ul class="Contacts">
+						<li><a href="Liikenne- ja viestintäministeriö"><i class="Ministry"></i></a></li>
+						<li><a href="Osoite"><i class="Address"></i></a></li>
+						<li><a href="Puhelin"><i class="Phone"></i></a></li>
+						<li><a href="Nettisivut"><i class="Internet"></i></a></li>
+					</ul>
+			    </div>
+			</div>
+			<p class="Copyright">
+	    		<a href="#">Krista Huhtamäki 2017</a>
+	    	</p>
+		</div>
+	</footer>
+
+
+
+    
+	<!-- Javascript -->
+	<script src="js/jquery.min.js"></script>
+    <script src="js/kube.min.js"></script>    
+    
+</body>
 </html>
