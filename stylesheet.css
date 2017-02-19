@@ -1,6 +1,6 @@
 .navigation {
     text-align: center;
-    background-color: #3399FF;
+    background-color: #336666;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -26,56 +26,63 @@
 }
 
 .navigation li a:hover {
-    color: #3399FF;
+    color: #003333;
 }
 
-.group.top-nav { margin-bottom: -20px }
-
+body {
+    background-color: #333 
+}
 
 h1 {
     position: relative;
     margin-top: 150px;
     text-align: center;
+    background-color: #333;
+    color: #FFF;
+    
 }
 
 .logo-container {
     height: 450px;
     max-width: 800px;
     margin: 0 auto;
+    
 }
 
 .logo {
     height: 100%;
     width: 100%;
+    margin-top: 80px;
     position: relative;
     background-size: cover;
     background-image: url('assets/roads.jpg');
     background-repeat: no-repeat;
+    background-color: #333
     z-index: -1;
 }
 
-.blog-post h2 {
+ h2 {
     transition: 1s;
     font-size: 1em;
 }
 
-.blog-post h2:hover {
+.h2:hover {
     font-size: 2em;
     transition: 1s;
-    color: #3399FF;
+    color: #003333;
 }
 
-.blog-post {
+.text-field {
     width: 70%;
     max-width: 600px;
     margin: 0 auto;
     margin-top: 30px;
     text-align: center;
-    color: #fff;
-    background-color: #1f1f1f;
+    color: #003333;
+    background-color: #FFF;
     padding: 20px;
     border-radius: 20px;
-    border-color: #3399FF;
+    border-color: #669999;
     border-width: 5px;
     border-style: solid;
 }
@@ -86,10 +93,13 @@ h1 {
     height: auto;
 }
 
-.blog-post a {
+.text-field a {
     text-decoration: none;
-    color: #fff;
+    color: #333;
+    font-style: italic;
 }
+
+
 
 .footer {
     width: 100%;
