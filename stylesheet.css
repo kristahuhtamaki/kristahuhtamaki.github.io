@@ -29,6 +29,8 @@
     color: #003333;
 }
 
+.navigation li a.active { color: #003333 }
+
 body {
     background-color: #333 
 }
