@@ -21,7 +21,7 @@ function guessTheNumber() {
 	if (compareNumbers(correctNumber, usersNumber)) {
 		window.alert("Arvasit oikein!");
 	} else {
-		window.alert("Arvasit väärin..." + correctNumber);
+		window.alert("Arvasit väärin. Oikea luku oli " + correctNumber);
 	}
 
 	correctNumber = getRandomInteger(1, 10);
