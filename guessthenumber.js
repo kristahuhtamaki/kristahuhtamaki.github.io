@@ -14,7 +14,6 @@ function guessTheNumber() {
 
     "use strict";
 	var usersNumber = document.getElementById("number").value;
-    
 	if (!Number.isInteger(usersNumber) && usersNumber <= 1 && usersNumber >= 10) {
 		window.alert("Syötetty luku ei kelpaa");
 	}
@@ -22,7 +21,7 @@ function guessTheNumber() {
 	if (compareNumbers(correctNumber, usersNumber)) {
 		window.alert("Arvasit oikein!");
 	} else {
-		window.alert("Arvasit väärin...");
+		window.alert("Arvasit väärin...", correctNumber);
 	}
 
 	correctNumber = getRandomInteger(1, 10);
