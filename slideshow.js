@@ -1,25 +1,24 @@
 window.onload = function () {
    
-    'use strict';
     var x = null;
-    $.getJSON("https://project-353749562509379758.firebaseio.com/.json", function (data) {
+    $.getJSON("https://project-3800075639156052903.firebaseio.com/", function (data) {
     
         x = data;
         slideshow();
     
   
     });
-    function slideshow() {
-        var index = 0;
-        function seuraava(n) {
-            if (n < 2) {
-                n++;
-            } else {
-                n = 0;
-            }
-            return n;
-        
-        } ;
+function slideshow() {
+    var index = 0;
+    function seuraava(n) {
+        if (n < 2) {
+            n++;
+        } else {
+            n = 0;
+        }
+        return n;
+    
+    } ;
     function edellinen(n){
         if(n>0){
             n--;
