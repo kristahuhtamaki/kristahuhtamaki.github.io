@@ -10,7 +10,7 @@ window.onload = function () {
   
     });
     function slideshow() {
-        var saatana = 0;
+        var index = 0;
         function seuraava(n) {
             if (n < 2) {
                 n++;
@@ -38,8 +38,8 @@ window.onload = function () {
  
     $("#news").fadeOut(300,function(){
      $("#news").html("<div class= 'changing-text'> "+
-       "<p>" + x[saatana].title+"&nbsp;&nbsp;&nbsp" + x[saatana].date + 
-       "</p> <br>" +"<p>" + x[saatana].article + " </p> </div>");
+       "<p>" + x[index].title+"&nbsp;&nbsp;&nbsp" + x[index].date + 
+       "</p> <br>" +"<p>" + x[index].article + " </p> </div>");
         $("#news").fadeIn();
         
 
@@ -52,7 +52,7 @@ window.onload = function () {
        
       
     document.getElementById("button").addEventListener("click", function(){
-     saatana = seuraava(saatana);
+     index = seuraava(index);
          
        Mytimer();
        isActive = false;
@@ -63,7 +63,7 @@ window.onload = function () {
  
                
              document.getElementById("button2").addEventListener("click", function(){
-     saatana = edellinen(saatana);
+     index = edellinen(index);
     
          
         Mytimer();
@@ -83,7 +83,7 @@ window.onload = function () {
         else{
             isActive = true;
         voivittu = setInterval(function(){
-         saatana = seuraava(saatana);
+         index = seuraava(index);
         Mytimer();
         
         },4000);
@@ -94,7 +94,7 @@ window.onload = function () {
 }); 
     
       var voivittu = setInterval(function(){
-         saatana = seuraava(saatana);
+         index = seuraava(index);
         Mytimer();
         
         },4000);
