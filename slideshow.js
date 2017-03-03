@@ -2,7 +2,7 @@ window.onload = function () {
    
     'use strict';
     var x = null;
-    $.getJSON("https://project-353749562509379758.firebaseio.com/", function (data) {
+    $.getJSON("https://project-353749562509379758.firebaseio.com/.json", function (data) {
     
         x = data;
         slideshow();
