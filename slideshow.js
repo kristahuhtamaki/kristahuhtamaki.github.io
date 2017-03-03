@@ -1,25 +1,25 @@
-window.onload = function(){
+window.onload = function () {
    
+    'use strict';
     var x = null;
-    $.getJSON("https://paukkea2.firebaseio.com/.json",function (data) {
+    $.getJSON("https://paukkea2.firebaseio.com/.json", function (data) {
     
-     x = data;
-        slideshow()
+        x = data;
+        slideshow();
     
   
     });
-function slideshow(){
-    var saatana = 0;
-    function seuraava(n){
-        if(n<2) {
-            n++;
-        }
-        else {
-            n=0;
-        }
-        return n
+    function slideshow() {
+        var saatana = 0;
+        function seuraava(n) {
+            if (n < 2) {
+                n++;
+            } else {
+                n = 0;
+            }
+            return n;
         
-    };
+        } ;
     function edellinen(n){
         if(n>0){
             n--;
