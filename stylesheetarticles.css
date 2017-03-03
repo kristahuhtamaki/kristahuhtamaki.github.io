@@ -1,7 +1,7 @@
 .animation {
-  font-family: 'Alfa Slab One', cursive;
-  font-size:6rem;
-  background:#2c333a;
+  font-family: 'Open Sans', sans-serif;
+  font-size:17px;
+  background:#FFF;
 }
 
 div {
@@ -12,21 +12,19 @@ div {
   transform-style: preserve-3d;
  }
 
-span {
-   display:inline-block;
-   transform-origin: 55% 70%;
-    margin-left: -20px;
-    color:#77c6bc;
-}
+
  #news {
-    font-size: 20px;
-     font-family: fantasy;
+    font-size: 70px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .navigation {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
     text-align: center;
-    background-color: #000;
-    position: relative;
+    background-color: #336666;
+    position: fixed;
     top: 0px;
     left: 0px;
     right: 0px;
@@ -34,10 +32,10 @@ span {
 }
 
 .navigation li {
-    padding-top: 20px;
+    padding-top: 15px;
     display: inline-block;
-    padding-bottom: 20px;
-    margin-right: 5px;
+    padding-bottom: 10px;
+    margin-right: 10px;
 }
 
 .navigation ul {
@@ -45,12 +43,12 @@ span {
     height: 50px;
 }
 
+
 .navigation li a {
     text-decoration: none;
     color: #fff;
 }
 
 .navigation li a:hover {
-    color: #518427;
-    
+    color: #003333;
 }
