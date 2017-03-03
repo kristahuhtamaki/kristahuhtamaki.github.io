@@ -70,7 +70,7 @@ window.onload = function () {
                     index = next(index);
                     Mytimer();
                 },4000);
-                $("#button3").html("Tauota");
+                $("#button3").html("Pysäytä");
             };
 
         }); 
