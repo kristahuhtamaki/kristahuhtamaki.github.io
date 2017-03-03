@@ -37,9 +37,9 @@ window.onload = function () {
    
  
     $("#news").fadeOut(300,function(){
-     $("#news").html("<div class= 'otsikko'> "+
-       "<p>" + x[saatana].otsikko+"&nbsp;&nbsp;&nbsp" + x[saatana].date + 
-       "</p> <br>" +"<p>" + x[saatana].contents + " </p> </div>");
+     $("#news").html("<div class= 'changing-text'> "+
+       "<p>" + x[saatana].title+"&nbsp;&nbsp;&nbsp" + x[saatana].date + 
+       "</p> <br>" +"<p>" + x[saatana].article + " </p> </div>");
         $("#news").fadeIn();
         
 
