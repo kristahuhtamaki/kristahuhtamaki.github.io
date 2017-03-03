@@ -1,7 +1,7 @@
 window.onload = function () {
    
     var x = null;
-    $.getJSON("https://project-3800075639156052903.firebaseio.com/", function (data) {
+    $.getJSON("https://project-3800075639156052903.firebaseio.com/.json", function (data) {
     
         x = data;
         slideshow();
