@@ -171,6 +171,30 @@ footer img {
     height: 100%;
 }
 
+.animation {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  background:#FFF;
+}
+
+div {
+  width:80%;
+  margin:4rem auto;
+  text-align:center;
+  perspective: 800px;
+  transform-style: preserve-3d;
+ }
+
+span {
+   display:inline-block;
+   transform-origin: 55% 70%;
+    margin-left: 20px;
+    color:#77c6bc;
+}
+ #news {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
 
 
 /* Responsive */
