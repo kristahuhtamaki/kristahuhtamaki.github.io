@@ -1,0 +1,36 @@
+{
+	"articles": [
+		{
+			"id": 1,
+			"text": {
+				"author": "First",
+				"date": "01/01/1999",
+				"language": "Finnish",
+				"title": "Anne Berner",
+				"article": "Anne-Catherine Berner on sveitsiläis-suomalainen yritysjohtaja ja hallitusammattilainen sekä Juha Sipilän hallituksen liikenne- ja viestintäministeri. Hän on sukunsa yrityksen Vallila Interiorin hallituksen puheenjohtaja ja pääomistaja. Berner valittiin kansanedustajaksi vuoden 2015 eduskuntavaaleissa keskustan sitoutumattomana ehdokkaana Uudenmaan vaalipiiristä."
+			}
+		},
+        
+		{
+			"id": 2,
+			"text": {
+				"author": "Second",
+				"date": "01/01/2017",
+				"language": "Finnish",
+				"title": "LVM",
+				"article": "Liikenne- ja viestintäministeriö vastaa toimivista ja turvallisista liikenne- ja viestintäyhteyksistä sekä -palveluista ja mahdollistaa uusien digitaalisten palvelujen käyttöympäristön. Tavoitteena on suotuisan toimintaympäristön luominen digitaalisille palveluille ja uusille liiketoimintamalleille."
+			}
+		},
+        
+		{
+			"id": 3,
+			"text": {
+				"author": "Third",
+				"date": "1/11/0001",
+				"language": "Finnish",
+				"title": "Öljy",
+				"article": "Usein öljy-sanalla viitataan nimenomaan maaöljyyn (raakaöljyyn), jota pumpataan maan sisältä. Se on hiilivetyjen seos. Maaöljy on tällä hetkellä yksi maailman tärkeimmistä energianlähteistä, ja se liittyy olennaisena osana kansainväliseen politiikkaan. Maaöljyä kulutettiin vuonna 2004 maailmassa noin 13 miljardia litraa (83 miljoonaa tynnyriä) ja Suomessa noin 35 miljoonaa litraa (220 tuhatta tynnyriä) päivässä."
+			}
+		}
+	]
+}
