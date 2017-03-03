@@ -1,7 +1,6 @@
 .animation {
   font-family: 'Open Sans', sans-serif;
-  font-size:17px;
-  background:#FFF;
+  font-size:6rem;
 }
 
 div {
@@ -12,8 +11,14 @@ div {
   transform-style: preserve-3d;
  }
 
+span {
+   display:inline-block;
+   transform-origin: 55% 70%;
+    margin-left: 20px;
+    color:#fff;
+}
 
- #news {
+#news {
     font-size: 70px;
     font-family: 'Open Sans', sans-serif;
     color: #fff;
