@@ -52,7 +52,6 @@ function spriteE (options, enemy) {
     that.update = function (enemy) {
         enemy.ticks += 1;
         
-			
         if (tickCount > ticksPerFrame) {
             
         	enemy.ticks = 0;
@@ -101,7 +100,6 @@ function removeEnemy(clickX, clickY) {
      }
 }
 
-
 function drawEnemies(ctx) {
   var EReady = false;
   var EImage = new Image();
@@ -109,9 +107,6 @@ function drawEnemies(ctx) {
   EReady = true;
   };
   EImage.src = "imgs/skullball.png";
-    
-  
-
   for(i = 0; i < enemies.length; i++){
     var e = enemies[i];
     var E = spriteE({
@@ -128,7 +123,6 @@ function drawEnemies(ctx) {
   }
 
 }
-
 
 function moveEnemies() {
      for(i = 0; i < enemies.length; i++){

@@ -8,6 +8,7 @@ function player(x,y,r,speed,dir,frame,ticks) {
  this.ticks = ticks;
  
 }
+
 var pSpeed = 3;
 var windowWidth = Math.max(window.innerWidth - 25, 1150);
 var windowHeight = window.innerHeight - 25;
@@ -233,6 +234,7 @@ function movePlayer(dir) {
       }
       break;
   }
+    
     for(k = 0; k < enemies.length; k++){
         var distance = Math.sqrt(Math.pow((p.x - enemies[k].x),2) + Math.pow((p.y - enemies[k].y),2))
         if(distance < p.r + plMod + enemies[k].r){

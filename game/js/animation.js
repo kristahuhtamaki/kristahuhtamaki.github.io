@@ -21,18 +21,13 @@ $(document).ready(function() {
   };
   backgroundImage.src = "imgs/keskusta.tiff";
 
-    
-//Nappulat
   function button(text, line, x, y){
       this.text = text;
       this.line = line;
       this.x = x;
       this.y = y;
   }
-    
-    
-    
-// Nappuloiden kuvat
+
   var buReady = false;
   var buImage = new Image();
   buImage.onload = function () {
@@ -46,9 +41,6 @@ $(document).ready(function() {
   
   var buttons = [newGame, newEnemy];
     
-    
-        
-  //Sprite
   function sprite (options, b) {
     var that = {};
     frameIndex = b.line;			
@@ -72,10 +64,6 @@ $(document).ready(function() {
 }
     
     
-
-  
-    
-//Hiiren sijainti
 function getMousePosition(canvas, evt) {
     var rect = canvas.getBoundingClientRect();
     return {
@@ -83,8 +71,7 @@ function getMousePosition(canvas, evt) {
       y: evt.clientY - rect.top
     };
 }
- 
-//Näppäinten painaminen
+
   var keysDown = {};
     
 function buttonPressed(x,y){
