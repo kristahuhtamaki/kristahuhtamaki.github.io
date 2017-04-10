@@ -1,12 +1,12 @@
-function enemy(x,y,r,speed,dir,frame,row,ticks) {
+function enemy(x,y,r,speed,direction,frame,row,tcs) {
  this.x = x;
  this.y = y;
  this.r = r;
  this.speed = speed;
- this.dir = dir;
+ this.dir = direction;
  this.frame = frame;
  this.row = row;
- this.ticks = ticks;
+ this.ticks = tcs;
 }
 
 function eReset() {

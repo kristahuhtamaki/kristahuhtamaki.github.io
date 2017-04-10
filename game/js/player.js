@@ -71,7 +71,7 @@ function drawPlayer(ctx, keys) {
   plImage.onload = function () {
   plReady = true;
   };
-  plImage.src = "imgs/plWalk.png";
+  plImage.src = "imgs/walking.png";
   var pl = spriteP({
     context: ctx,
     width: 1104,
