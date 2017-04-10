@@ -19,7 +19,7 @@ $(document).ready(function() {
   backgroundImage.onload = function () {
   backgroundReady = true;
   };
-  backgroundImage.src = "imgs/keskusta1.tiff";
+  backgroundImage.src = "imgs/keskusta.tiff";
 
     
 //Nappulat
