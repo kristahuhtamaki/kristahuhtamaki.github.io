@@ -1,0 +1,148 @@
+@import 'normalize.css';
+
+
+
+.can {
+    margin-left: 10px;
+    margin-top: 10px;
+    max-width: 1920px;
+    max-height: 1276px;
+    background-position: center;
+}
+
+
+@media screen and (min-width: 400px){
+    .navigation a{
+        font-size: 18px;
+    }
+    .navigation li{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .footer{
+        font-size: 15px;
+    }
+    #logo{
+        width: 150px;
+    }
+    #cover{
+        min-height: 250px;
+    }
+
+}
+@media screen and (min-width:600px){
+    .navigation a{
+        font-size: 30px;
+    }
+    .navigation li{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .text{
+       font-size: 25px; 
+    }
+    .list{
+        font-size: 20px;
+    }
+    .header{
+        margin-top: 87px;
+        font-size: 27px;
+    }
+    .footer{
+        font-size: 15px;
+    }
+    #logo{
+        width: 150px;
+    }
+    .videoContainer{
+        height: 350px;
+    }
+    .videoContainer iframe{
+        height: 350px;
+    }
+    
+    #cover{
+        min-height: 390px;
+    }
+}
+@media screen and (min-width:800px){
+    .navigation a{
+        font-size: 35px;
+    }
+    .navigation li{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .text{
+       font-size: 32px; 
+    }
+    
+    .list{
+        font-size: 35px;
+        margin-left: auto;
+        margin-right:auto;
+    }
+    .header{
+        margin-top: 95px;
+        font-size: 35px;
+    }
+    .footer{
+        font-size: 20px;
+    }
+    #logo{
+        width: 200px;
+    }
+    #cover{
+        min-height: 500px;
+    }
+}
+@media screen and (min-width:1080px){
+   .navigation a{
+        font-size: 20px;
+    }
+    .navigation li{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .text{
+        width: 800px;
+        font-size: 15px;
+        margin-left: auto;
+        margin-right:auto;
+    }
+    .margins{
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+    }
+   
+    .header{
+        width: 100%;
+        margin-top: 69px;
+        font-size: 35px;
+    } 
+    #headerBackground{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto
+    }
+    
+    #image{
+        width: 500px;
+    }
+    .footer{
+        font-size: 15px;
+        width: 817px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        clear: both;
+    }
+    #cover{
+        min-height: 200px;
+    }
+    
+}
